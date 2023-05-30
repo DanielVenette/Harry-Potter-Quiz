@@ -26,11 +26,11 @@ Here are the steps to setup this project locally on your machine:
 1. First, you will need Python installed on your computer. If you don't have it installed, you can download it [here](https://www.python.org/downloads/).
 2. Clone this repository to your local machine. You can do this by running the following command in your terminal:
     ```bash
-    git clone https://github.com/DanielVenette/harry-potter-quiz-game.git
+    git clone https://github.com/DanielVenette/Harry-Potter-Quiz.git
     ```
 3. Navigate into the project directory:
     ```bash
-    cd harry-potter-quiz-game
+    cd Harry-Potter-Quiz
     ```
 4. Install the required dependencies with pip:
     ```bash
