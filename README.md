@@ -49,5 +49,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 This project is licensed under the terms of the MIT license.
-
-Please replace `https://github.com/your-github-username/harry-potter-quiz-game.git` with the actual URL of your GitHub repository, and `https://url-to-a-sample-screenshot.com/sample.jpg` with a URL to a screenshot of the game. You can also include the `requirements.txt` file in your repository to list the necessary dependencies for this project (in this case, the `requests` and `tkinter` libraries).
