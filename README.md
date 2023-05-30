@@ -1,6 +1,6 @@
 # Harry Potter Quiz Game
 
-![Harry Potter Quiz Game](https://github.com/DanielVenette/Harry-Potter-Quiz/blob/master/HP%20Screenshot.png)
+<img src="HP%20Screenshot.png" height="500" width="333">
 
 Welcome to the Harry Potter Quiz Game! This is a fun and interactive trivia game made for fans of the Harry Potter series. Test your knowledge about the actors who brought the beloved characters from the series to life on screen.
 
