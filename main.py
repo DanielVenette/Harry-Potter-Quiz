@@ -3,7 +3,7 @@ from question_model import Question
 from quiz_brain import QuizBrain
 from ui import QuizInterface
 
-response = requests.get("https://hp-api.herokuapp.com/api/characters")
+response = requests.get("https://hp-api.onrender.com/api/characters")
 print(response)
 response.raise_for_status()
 entire_data_bank = response.json()
