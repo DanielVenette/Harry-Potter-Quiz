@@ -24,25 +24,26 @@ The Harry Potter Quiz Game fetches character data from the Harry Potter API, and
 Here are the steps to setup this project locally on your machine:
 
 1. First, you will need Python installed on your computer. If you don't have it installed, you can download it [here](https://www.python.org/downloads/).
-2. Clone this repository to your local machine. You can do this by running the following command in your terminal:
+2. You will need git.  If you don't already have it, you can download and install it [here](https://git-scm.com/downloads).
+3. Clone this repository to your local machine. You can do this by running the following command in your terminal:
     ```bash
     git clone https://github.com/DanielVenette/Harry-Potter-Quiz.git
     ```
-3. Navigate into the project directory:
+4. Navigate into the project directory:
     ```bash
     cd Harry-Potter-Quiz
     ```
-4. Install the required dependencies with pip:
+5. Install the required dependencies with pip:
     ```bash
     pip install -r requirements.txt
     ```
-5. Run the game:
+6. Run the game:
     ```bash
     python main.py
     ```
 
 ## How to Play
-On running the game, you will be presented with the name and picture of a character from the Harry Potter series. You will have to guess who portrayed this character in the films. You have four options to choose from for each question. The game keeps track of your score, and provides feedback after each question. Good luck!
+On running the game, you will be presented with the name of a character from the Harry Potter series. You will have to guess who portrayed this character in the films. You have four options to choose from for each question. The game keeps track of your score, and provides feedback after each question. Good luck!
 
 ## Contributions
 Contributions are welcome! Please feel free to submit a Pull Request.
