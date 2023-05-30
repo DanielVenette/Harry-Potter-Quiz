@@ -43,9 +43,9 @@ class QuizBrain:
     def check_answer(self, passed_user_answer) -> bool:
         correct_answer = self.current_question.actor
         if passed_user_answer == correct_answer:
-            print(f"You got it!  The correct answer was {correct_answer}\n")
+            # print(f"You got it!  The correct answer was {correct_answer}\n")
             self.score += 1
             return True
         else:
-            print(f"Sorry, the correct answer was {correct_answer}\n")
+            # print(f"Sorry, the correct answer was {correct_answer}\n")
             return False

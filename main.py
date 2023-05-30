@@ -4,7 +4,7 @@ from quiz_brain import QuizBrain
 from ui import QuizInterface
 
 response = requests.get("https://hp-api.onrender.com/api/characters")
-print(response)
+# print(response)
 response.raise_for_status()
 entire_data_bank = response.json()
 
@@ -24,13 +24,13 @@ for entry in entire_data_bank:
         new_question = Question(a_film_character, a_actor, a_picture_address, a_gender)
         question_bank.append(new_question)
 
-for entry in question_bank:
-    print(f"Character Played: {entry.film_character}")
-    print(f"Gender: {entry.gender}")
-    print(f"Actor: {entry.actor}")
-    print(f"Picture Address: {entry.picture_address}\n")
-
-print(len(question_bank))
+# for entry in question_bank:
+#     print(f"Character Played: {entry.film_character}")
+#     print(f"Gender: {entry.gender}")
+#     print(f"Actor: {entry.actor}")
+#     print(f"Picture Address: {entry.picture_address}\n")
+#
+# print(len(question_bank))
 
 quiz_brain_instance = QuizBrain(question_bank)
 # print(qb.male_actors)
